@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — ZenithBar</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+      line-height: 1.7;
+      color: #17181b;
+      background: #fbfbfc;
+      -webkit-font-smoothing: antialiased;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e9eaee; background: #0e0f12; }
+      a { color: #5aa9ff !important; }
+      hr { border-color: rgba(255,255,255,.1) !important; }
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px; }
+    h1 { font-size: 2rem; letter-spacing: -0.02em; margin: 0 0 4px; }
+    .updated { color: #9497a0; font-size: .9rem; margin: 0 0 32px; }
+    h2 { font-size: 1.2rem; margin: 36px 0 8px; }
+    a { color: #087ff5; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    hr { border: none; border-top: 1px solid rgba(24,25,28,.1); margin: 40px 0; }
+    .back { display: inline-block; margin-bottom: 24px; color: #686b73; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">← ZenithBar</a>
+    <h1>Política de Privacidade</h1>
+    <p class="updated">Última atualização: 20 de junho de 2026</p>
+
+    <p>
+      Esta Política de Privacidade descreve como o <strong>ZenithBar</strong> ("o aplicativo",
+      "nós") trata as informações quando você usa o app de desktop e, opcionalmente, conecta
+      sua Conta Google. Ao usar o ZenithBar, você concorda com as práticas descritas aqui.
+    </p>
+
+    <h2>1. Quem somos</h2>
+    <p>
+      O ZenithBar é um aplicativo de desktop para Windows desenvolvido por Henry Cauan,
+      um desenvolvedor independente. Contato:
+      <a href="mailto:zeenithbaar@gmail.com">zeenithbaar@gmail.com</a>.
+    </p>
+
+    <h2>2. Princípio: tudo fica no seu computador</h2>
+    <p>
+      O ZenithBar é um aplicativo <strong>local</strong>. Não temos servidores próprios e
+      <strong>não coletamos, armazenamos nem transmitimos</strong> seus dados pessoais para
+      nós ou para terceiros. Todas as informações ficam no seu dispositivo, exceto quando
+      elas trafegam diretamente entre o seu computador e os serviços do Google que você
+      autorizou — sem passar por nós.
+    </p>
+
+    <h2>3. Acesso a dados do Google</h2>
+    <p>
+      A conexão com o Google é <strong>opcional</strong>. Se você optar por conectar, o app
+      solicita apenas os seguintes escopos de acesso, e os usa exclusivamente para os fins
+      indicados:
+    </p>
+    <ul>
+      <li>
+        <strong>Google Agenda — somente leitura</strong>
+        (<code>calendar.readonly</code>): usado unicamente para ler e exibir seus próximos
+        eventos dentro da interface do app. O ZenithBar nunca cria, edita nem apaga eventos.
+      </li>
+      <li>
+        <strong>Google Drive — dados do aplicativo</strong>
+        (<code>drive.appdata</code>): usado unicamente para salvar e restaurar um backup das
+        <em>suas próprias configurações do ZenithBar</em> em uma pasta privada e oculta do app
+        no seu Drive. Esse escopo <strong>não</strong> dá acesso aos seus outros arquivos,
+        fotos ou documentos do Drive.
+      </li>
+      <li>
+        <strong>Perfil básico</strong> (<code>openid</code>, <code>email</code>): usado para
+        identificar a conta conectada e exibir o e-mail associado dentro do app.
+      </li>
+    </ul>
+
+    <h2>4. Como os dados são armazenados</h2>
+    <ul>
+      <li>
+        Os <strong>tokens de acesso</strong> emitidos pelo Google ficam armazenados
+        localmente no seu computador, e são usados apenas para autenticar suas próprias
+        requisições aos serviços do Google.
+      </li>
+      <li>
+        Os <strong>dados da agenda</strong> são buscados em tempo real para exibição e não
+        são compartilhados com terceiros.
+      </li>
+      <li>
+        O <strong>backup de configurações</strong> fica na sua própria área privada do Google
+        Drive (appdata), sob seu controle.
+      </li>
+    </ul>
+
+    <h2>5. Compartilhamento de dados</h2>
+    <p>
+      Nós <strong>não vendemos, alugamos nem compartilhamos</strong> seus dados com ninguém.
+      O ZenithBar não usa dados obtidos via APIs do Google para treinar modelos de
+      inteligência artificial.
+    </p>
+    <p>
+      O uso e a transferência das informações recebidas das APIs do Google pelo ZenithBar
+      aderem à
+      <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">
+      Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos
+      de Uso Limitado (Limited Use).
+    </p>
+
+    <h2>6. Como revogar o acesso</h2>
+    <p>
+      Você pode desconectar sua Conta Google a qualquer momento dentro das configurações do
+      ZenithBar. Também pode revogar o acesso do app diretamente em
+      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">
+      myaccount.google.com/permissions</a>. Ao desconectar, os tokens armazenados localmente
+      são apagados.
+    </p>
+
+    <h2>7. Crianças</h2>
+    <p>
+      O ZenithBar não é direcionado a menores de 13 anos e não coleta intencionalmente dados
+      de crianças.
+    </p>
+
+    <h2>8. Alterações nesta política</h2>
+    <p>
+      Podemos atualizar esta política periodicamente. A data de "Última atualização" no topo
+      indica a versão vigente. Mudanças relevantes serão refletidas nesta mesma página.
+    </p>
+
+    <h2>9. Contato</h2>
+    <p>
+      Dúvidas sobre esta política? Escreva para
+      <a href="mailto:zeenithbaar@gmail.com">zeenithbaar@gmail.com</a>.
+    </p>
+
+    <hr />
+    <p style="color:#9497a0;font-size:.9rem;">© 2026 ZenithBar</p>
+  </div>
+</body>
+</html>

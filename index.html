@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="yb2c3VRR4Rol-kfQFXl8dkJt-ajyjMAeju59mWhLp9k" />
+  <title>ZenithBar</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+      line-height: 1.65;
+      color: #17181b;
+      background: #fbfbfc;
+      -webkit-font-smoothing: antialiased;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e9eaee; background: #0e0f12; }
+      .card { background: #16181c !important; border-color: rgba(255,255,255,.08) !important; }
+      a { color: #5aa9ff !important; }
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
+    header { text-align: center; margin-bottom: 48px; }
+    h1 { font-size: 2.4rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+    .tagline { color: #686b73; font-size: 1.1rem; margin: 0; }
+    .card {
+      background: #fff;
+      border: 1px solid rgba(24,25,28,.09);
+      border-radius: 16px;
+      padding: 28px;
+      margin: 16px 0;
+    }
+    h2 { font-size: 1.25rem; margin: 0 0 10px; }
+    a { color: #087ff5; text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    .links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
+    footer { text-align: center; color: #9497a0; font-size: .9rem; margin-top: 48px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>ZenithBar</h1>
+      <p class="tagline">Uma Dynamic Island para Windows — mídia, agenda e notificações no topo da sua tela.</p>
+    </header>
+
+    <div class="card">
+      <h2>Sobre</h2>
+      <p>
+        ZenithBar é um aplicativo de desktop para Windows que traz uma barra flutuante
+        no estilo "Dynamic Island". Ele mostra a mídia que está tocando, seus próximos
+        eventos da agenda e notificações — tudo de forma discreta no topo da tela.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Integração com o Google</h2>
+      <p>O ZenithBar pode, opcionalmente, conectar à sua Conta Google para:</p>
+      <ul>
+        <li><strong>Google Agenda</strong> — exibir seus próximos eventos (somente leitura).</li>
+        <li><strong>Google Drive</strong> — guardar um backup das suas configurações do app
+          em uma área privada e isolada (não acessamos seus outros arquivos).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Documentos legais</h2>
+      <div class="links">
+        <a href="./privacy.html">Política de Privacidade</a>
+        <a href="./terms.html">Termos de Serviço</a>
+        <a href="https://github.com/HenryCauan/ZenithBar">Código no GitHub</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 ZenithBar · Contato: zeenithbaar@gmail.com
+    </footer>
+  </div>
+</body>
+</html>
