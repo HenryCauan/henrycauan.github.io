@@ -35,7 +35,7 @@
   <div class="wrap">
     <a class="back" href="./index.html">← ZenithBar</a>
     <h1>Política de Privacidade</h1>
-    <p class="updated">Última atualização: 20 de junho de 2026</p>
+    <p class="updated">Última atualização: 21 de julho de 2026</p>
 
     <p>
       Esta Política de Privacidade descreve como o <strong>ZenithBar</strong> ("o aplicativo",
@@ -84,16 +84,30 @@
       </li>
     </ul>
 
-    <h2>4. Como os dados são armazenados</h2>
+    <h2>4. Como os dados são armazenados e protegidos</h2>
+    <p>
+      Levamos a segurança dos seus dados a sério. <strong>Procedimentos de segurança estão
+      em vigor para proteger a confidencialidade das suas informações</strong>, e
+      <strong>usamos criptografia para proteger seus dados</strong> tanto em repouso quanto em
+      trânsito. Especificamente:
+    </p>
     <ul>
       <li>
+        Toda a comunicação entre o ZenithBar e as APIs do Google ocorre por conexões
+        <strong>criptografadas (HTTPS/TLS)</strong>, diretamente entre o seu dispositivo e os
+        servidores do Google, sem intermediários.
+      </li>
+      <li>
         Os <strong>tokens de acesso</strong> emitidos pelo Google ficam armazenados
-        localmente no seu computador, e são usados apenas para autenticar suas próprias
+        localmente no seu computador de forma <strong>criptografada</strong>, usando o
+        armazenamento seguro do sistema operacional (Electron <code>safeStorage</code>, apoiado
+        no cofre de credenciais do Windows). São usados apenas para autenticar suas próprias
         requisições aos serviços do Google.
       </li>
       <li>
-        Os <strong>dados da agenda</strong> são buscados em tempo real para exibição e não
-        são compartilhados com terceiros.
+        Os <strong>dados da agenda</strong> são buscados em tempo real, direto da API do Google
+        para o seu dispositivo, apenas para exibição. Não são copiados para servidores nossos
+        nem compartilhados com terceiros.
       </li>
       <li>
         O <strong>backup de configurações</strong> fica na sua própria área privada do Google
@@ -101,7 +115,25 @@
       </li>
     </ul>
 
-    <h2>5. Compartilhamento de dados</h2>
+    <h2>5. Retenção e exclusão de dados</h2>
+    <ul>
+      <li>
+        Os <strong>dados da agenda não são retidos</strong>: são carregados para exibição e
+        descartados quando o app é fechado.
+      </li>
+      <li>
+        Os <strong>tokens de acesso</strong> permanecem no seu dispositivo apenas enquanto a
+        conta estiver conectada. Ao desconectar a conta nas configurações do ZenithBar, os
+        tokens armazenados localmente são <strong>apagados imediatamente</strong>.
+      </li>
+      <li>
+        O <strong>arquivo de backup</strong> na pasta appdata do seu Drive permanece até você
+        removê-lo, o que pode ser feito desconectando o backup no app ou apagando o arquivo
+        diretamente na sua conta Google.
+      </li>
+    </ul>
+
+    <h2>6. Compartilhamento de dados</h2>
     <p>
       Nós <strong>não vendemos, alugamos nem compartilhamos</strong> seus dados com ninguém.
       O ZenithBar não usa dados obtidos via APIs do Google para treinar modelos de
@@ -115,7 +147,7 @@
       de Uso Limitado (Limited Use).
     </p>
 
-    <h2>6. Como revogar o acesso</h2>
+    <h2>7. Como revogar o acesso</h2>
     <p>
       Você pode desconectar sua Conta Google a qualquer momento dentro das configurações do
       ZenithBar. Também pode revogar o acesso do app diretamente em
@@ -124,19 +156,19 @@
       são apagados.
     </p>
 
-    <h2>7. Crianças</h2>
+    <h2>8. Crianças</h2>
     <p>
       O ZenithBar não é direcionado a menores de 13 anos e não coleta intencionalmente dados
       de crianças.
     </p>
 
-    <h2>8. Alterações nesta política</h2>
+    <h2>9. Alterações nesta política</h2>
     <p>
       Podemos atualizar esta política periodicamente. A data de "Última atualização" no topo
       indica a versão vigente. Mudanças relevantes serão refletidas nesta mesma página.
     </p>
 
-    <h2>9. Contato</h2>
+    <h2>10. Contato</h2>
     <p>
       Dúvidas sobre esta política? Escreva para
       <a href="mailto:zeenithbaar@gmail.com">zeenithbaar@gmail.com</a>.
